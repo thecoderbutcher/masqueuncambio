@@ -1,10 +1,12 @@
-
+@import url(/fonts/stylesheet.css);
 html, body {
   width: 100%;
+  scroll-behavior: smooth;
   overflow-x: hidden; }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  transition: 500ms; 
   font-weight: 300; }
 
 h1,
@@ -63,7 +65,7 @@ section {
 */
 box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important; }
 #header-navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -757,4 +759,20 @@ box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98,
 .icon-svg #trash{
   width: 80px;
   height: 60px;
+}
+#joaquin{
+  font-family: 'The Absolute';
+  font-style: italic;
+  font-size: 40px;
+}
+.nav-link.icons {
+  width: 40px;
+}
+.move_menu{ 
+  background-color: #f1f1f1;
+  color: #2b2b2b2b !important;
+}
+
+#home, #propuestas, #biografia, #testimonial::before #contact{
+  height: 100vh;
 }
