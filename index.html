@@ -7,7 +7,7 @@
      - https://gettemplates.co/roxy
     -->
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <meta https-equiv="X-UA-Compatible" content="IE=edge">
     <title>JS 2023</title>
     <meta name="description" content="Roxy">
@@ -58,21 +58,18 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#testimonial">Testimonios</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link icons" href="https://www.facebook.com/joaquinjuan.surroca?mibextid=LQQJ4d" target="_blank"><img src="./icons/icono_facebook_gris.svg" alt="facebook"></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contacto</a>
+                        <a class="nav-link icons" href="https://instagram.com/jsurroca_ok?igshid=YmMyMTA2M2Y=" target="_blank"><img src="./icons/icono_instagram_gris.svg" alt="instagram"></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link icons" href="https://www.facebook.com/joaquinjuan.surroca?mibextid=LQQJ4d" target="_blank"><img src="/icons/icono_facebook_gris.svg" alt="facebook"></a>
+                        <a class="nav-link icons" href="" target="_blank"><img src="./icons/icono_youtube_gris.svg" alt="youtube"></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link icons" href="https://instagram.com/joaquinjuansurroca?igshid=YmMyMTA2M2Y=" target="_blank"><img src="/icons/icono_instagram_gris.svg" alt="instagram"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link icons" href="" target="_blank"><img src="/icons/icono_youtube_gris.svg" alt="youtube"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link icons" href="" target="_blank"><img src="/icons/icono_tiktok_gris.svg" alt="tiktok"></a>
+                        <a class="nav-link icons" href="" target="_blank"><img src="./icons/icono_tiktok_gris.svg" alt="tiktok"></a>
                     </li>
                     <!--<li class="nav-item only-desktop">
                     <a class="nav-link" id="side-nav-open" href="#">
@@ -83,7 +80,6 @@
             </div>
         </div>
     </nav>
-
     <!--<div id="side-nav" class="sidenav">
 	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
 	
@@ -304,6 +300,7 @@
             </div>
         </div>
     </section>
+    <!--
     <section id="contact" class="bg-white section-content">
         <div class="container">
             <div class="row align-items-center">
@@ -350,7 +347,7 @@
 
         </div>
     </section> 
-
+    -->
     <footer class="mastfoot my-3">
         <div class="inner container">
             <div class="row">
@@ -399,6 +396,18 @@
     <!-- Main JS -->
     <script src="js/app.min.js "></script>
     <script src="//localhost:35729/livereload.js"></script>
-    <script src="/js/function.js"></script>
+    <script>
+        const fixedMenu = document.querySelector('#header-navbar');
+        const scrollHeight = window.innerHeight;
+
+        window.addEventListener('scroll', function() {
+        if (window.scrollY >= scrollHeight) {
+            fixedMenu.classList.add('scrolled');
+        } else {
+            fixedMenu.classList.remove('scrolled');
+        }
+});
+    </script>
+    <a id="wspweb-icon" href="https://www.whatsapp.com"><img src="/img/icons/whatsapp.png" alt="whatsapp web" data-toggle="tooltip" data-placement="top" title="Escribeme todas tus inquietudes"></a>
 </body>
 </html>

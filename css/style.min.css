@@ -768,11 +768,21 @@ box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98,
 .nav-link.icons {
   width: 40px;
 }
-.move_menu{ 
-  background-color: #f1f1f1;
-  color: #2b2b2b2b !important;
-}
 
-#home, #propuestas, #biografia, #testimonial::before #contact{
+#home, #testimonial::before, #contact{
   height: 100vh;
+}
+#wspweb-icon{
+  position: fixed;
+  z-index: 9;
+  bottom: 3%;
+  right: 2%;
+  width: 50px;
+} 
+.scrolled {
+  background: linear-gradient(to right, #2fa891, #ff00cc);
+  opacity: 0.96;
+  color: #fff; 
+  padding: 5px !important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
