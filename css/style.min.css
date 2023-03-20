@@ -1,4 +1,4 @@
-@import url(./fonts/stylesheet.css);
+@import url(/fonts/stylesheet.css);
 html, body {
   width: 100%;
   scroll-behavior: smooth;
@@ -785,4 +785,8 @@ box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98,
   color: #fff; 
   padding: 5px !important;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#js-bio{
+  margin-left: 0; 
+
 }
