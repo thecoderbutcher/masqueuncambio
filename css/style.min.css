@@ -6,7 +6,7 @@ html, body {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  transition: 500ms; 
+  transition: 1000ms; 
   font-weight: 300; }
 
 h1,
@@ -802,4 +802,10 @@ box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98,
 }
 #header-navbar{
   text-shadow: 2px 3px 3px black;
+}
+#propuestas{
+  background-image: url("/img/bg-white.jpg"); 
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
