@@ -770,20 +770,16 @@ box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98,
 
 #home, #testimonial::before, #contact{
   height: 100vh;
-}
+} 
 #floaticons{
   position: fixed;
   z-index: 9;
   bottom: 3%;
   right: 2%;
+  text-align: center;
   width: 80px;
 } 
-#contanos-icon{
-
-}
-#contanos-icon:hover,#wspweb-icon:hover{
-  width: 90px;
-}
+ 
 .scrolled {
   background: linear-gradient(to right, #2fa891, #ff00cc);
   opacity: 0.96;
