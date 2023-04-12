@@ -764,11 +764,6 @@ box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98,
   width: 80px;
   height: 60px;
 }
-#joaquin{
-  font-family: 'The Absolute';
-  font-style: italic;
-  font-size: 40px;
-}
 .nav-link.icons {
   width: 40px;
 }
@@ -801,11 +796,31 @@ box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98,
   background-image: url(./img/bg-home.jpg) !important;
 }
 #header-navbar{
+  font-family: Montserrat;
+  font-weight: 600;
+  text-transform: uppercase; 
+  line-height: 0;
   text-shadow: 2px 3px 3px black;
 }
 #propuestas{
   background-image: url("/img/bg-white.jpg"); 
-
   background-repeat: no-repeat;
   background-size: cover;
+}
+#joaquin,#surroca{
+  font-family: Montserrat;
+  font-weight: 900;
+  line-height: -50;
+}
+.navbar-nav{
+  align-items: center;
+}
+.nav-link.icons img{
+  filter: drop-shadow(2px 3px 3px rgb(32, 32, 32))
+};
+
+.section-title{
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 4999px;
 }
