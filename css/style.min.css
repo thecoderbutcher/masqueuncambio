@@ -771,7 +771,7 @@ box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98,
 #home, #testimonial::before, #contact{
   height: 100vh;
 }
-#wspweb-icon{
+#floaticons{
   position: fixed;
   z-index: 9;
   bottom: 3%;
@@ -779,11 +779,7 @@ box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98,
   width: 80px;
 } 
 #contanos-icon{
-  position: fixed;
-  z-index: 9;
-  bottom: 11%;
-  right: 2.7%;
-  width: 60px;
+
 }
 #contanos-icon:hover,#wspweb-icon:hover{
   width: 90px;
@@ -796,7 +792,10 @@ box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98,
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 #js-bio{
-  margin-left: 0; 
+  margin-left: 0;  
+  font-family: 'Titillium Web';
+  font-weight: 500;
+  font-size: 16px;
 }
 #bg-home{
   width: 55%;
@@ -817,10 +816,11 @@ box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98,
   background-repeat: no-repeat;
   background-size: cover;
 }
-#joaquin,#surroca{
+#joaquin,#surroca, #JS{
   font-family: Montserrat;
   font-weight: 900;
   line-height: -50;
+  text-transform: uppercase;
 }
 .navbar-nav{
   align-items: center;
