@@ -902,6 +902,6 @@ section p {
     width: 300px;
   }
 }
-.card-background-candidatos{
- 
+img .card-background-candidatos{
+  align-items: center;
 }
