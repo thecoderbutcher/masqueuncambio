@@ -118,7 +118,7 @@ box-shadow: 0 10px 30px 0 rgba(21, 179, 158, 0.24), 0 2px 4px 0 rgba(67, 80, 98,
     background-image: url('../img/team-bg.jpeg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
   }
 
   .jumbotron h1 {
@@ -905,10 +905,16 @@ section p {
   .card img{
     background-size:cover;
   } 
+  .jumbotron:before {
+    background-size:contain;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .card {
     width: 300px;
+  }
+  .jumbotron:before {
+    background-size:contain;
   }
 }
