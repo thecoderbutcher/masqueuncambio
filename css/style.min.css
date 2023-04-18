@@ -887,6 +887,14 @@ section p {
   flex-wrap: wrap;
   justify-content: center;
 }
+.card-candidatos img .card-background-candidatos{
+  background-color: red;
+}
+.owl-carousel .owl-item img{
+  display: inline;
+  width: 500px;
+  margin-bottom: 20px;
+}
 @media screen and (max-width: 768px) {
   .card {
     width: 400px;
@@ -903,18 +911,4 @@ section p {
   .card {
     width: 300px;
   }
-}
-img .card-background-candidatos{
-  align-items: center;
-}
-
-/*
-===============
-Grupo electoral
-===============
-*/
-.grupoElectoral {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
