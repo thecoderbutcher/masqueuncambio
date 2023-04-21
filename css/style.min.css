@@ -929,3 +929,7 @@ section p {
     background-size:contain;
   }
 }
+.modal {
+    --bs-modal-width: 950px;
+    width: 100%;
+}
